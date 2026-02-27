@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colin's Cue Club | Where Legends Break... Mostly Colin</title>
+    <meta name="description"
+        content="Luxury American pool tables, craft drinks, tournaments, and a booking system Colin definitely understands.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Outfit:wght@400;500;700;900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <span class="neon-tube">Co<span class="flicker-letter">l</span>in's</span>
+                <span class="accent-gold">Cue Club</span>
+            </a>
+            <div class="nav-links">
+                <a href="#membership">Membership</a>
+                <a href="#booking">Book a Table</a>
+                <a href="#leagues">Leagues</a>
+                <a href="#menu">Menu</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title reveal-text">
+                Where Legends Break...<br>
+                <span class="gradient-text">Mostly Colin</span>
+            </h1>
+            <p class="hero-subtitle fade-in-up delay-1">
+                Championship tables, craft drinks, tournaments, and a booking system Colin definitely
+                understands.
+            </p>
+            <div class="hero-actions fade-in-up delay-2">
+                <a href="#membership" class="btn btn-primary glow-effect">Become a Member</a>
+                <a href="#booking" class="btn btn-secondary glass-btn">Book a Table</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Membership Section -->
+    <section class="section membership" id="membership">
+        <div class="container">
+            <div class="super-header text-center fade-in">
+                <h2>Membership has <br><span class="neon-teal">privileges</span></h2>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="grid cards-grid stagger-fade-in">
+                <div class="card glass-card">
+                    <h3>Priority Booking</h3>
+                    <p>Skip the line and secure the best tables before non-members.</p>
+                </div>
+                <div class="card glass-card">
+                    <h3>Member Discounts</h3>
+                    <p>Cheaper drinks, cheaper tables, fewer complaints.</p>
+                </div>
+                <div class="card glass-card">
+                    <h3>League Access</h3>
+                    <p>Join exclusive tournaments and competitive leagues.</p>
+                </div>
+                <div class="card glass-card">
+                    <h3>Exclusive Events</h3>
+                    <p>Invites to private parties and tasting events.</p>
+                </div>
+                <div class="card glass-card">
+                    <h3>Free Wi-Fi</h3>
+                    <p>Strong enough for Colin to Google "how to run a pool club".</p>
+                </div>
+                <div class="card glass-card highlight-card">
+                    <h3>Founders Wall</h3>
+                    <p>Your name on the wall (everyone gets one, but not you Colin).</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 fade-in">
+                <a href="#membership-plans" class="btn btn-outline neon-border">View Membership Plans</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table Booking Section -->
+    <section class="section booking pattern-bg" id="booking">
+        <div class="container">
+            <div class="split-layout">
+                <div class="content-side fade-in-left"
+                    style="display: flex; flex-direction: column; position: relative;">
+                    <div class="super-header">
+                        <h2>Real-time <br><span class="accent-gold">table booking</span></h2>
+                    </div>
+                    <p class="lead-text mt-3">See live availability, reserve your table, and skip the awkward "is
+                        anyone
+                        using
+                        this?" stare. Colin still does it though.</p>
+
+                    <ul class="feature-list">
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Live availability calendar</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Instant online booking</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Secure payments</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Member priority slots</span>
+                        </li>
+                    </ul>
+
+                    <div class="glass-panel"
+                        style="margin-top: auto; background: rgba(20,20,24,0.6); padding: 1.5rem; border-left: 3px solid var(--accent-gold); border-radius: 8px;">
+                        <span class="gold"
+                            style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Coming
+                            Soon</span>
+                        <p style="margin-top: 0.5rem; color: var(--text-secondary); line-height: 1.4;">Live table
+                            status
+                            powered by advanced sensors, predictive AI, and <strong style="color: white;">Colin
+                                walking
+                                around scratching his head</strong>.</p>
+                    </div>
+
+                    <!-- Button moved outside split-layout -->
+                </div>
+
+                <div class="visual-side fade-in-right">
+                    <div class="mock-ui calendar-ui glass-panel">
+                        <div class="ui-header">
+                            <div class="ui-controls"><i></i><i></i><i></i></div>
+                            <div class="ui-title">Table Booking</div>
+                        </div>
+                        <div class="ui-body">
+                            <div class="calendar-header">
+                                <button>&lt;</button>
+                                <span>Tonight, Oct 24</span>
+                                <button>&gt;</button>
+                            </div>
+                            <div class="timeline">
+                                <div class="time-slot"><span>19:00</span>
+                                    <div class="table-track">
+                                        <div class="booking booked">Table 1 (Colin)</div>
+                                    </div>
+                                </div>
+                                <div class="time-slot"><span>20:00</span>
+                                    <div class="table-track">
+                                        <div class="booking available">Table 1 Available</div>
+                                    </div>
+                                </div>
+                                <div class="time-slot"><span>21:00</span>
+                                    <div class="table-track">
+                                        <div class="booking available">Table 1 Available</div>
+                                    </div>
+                                </div>
+                                <div class="time-slot"><span>22:00</span>
+                                    <div class="table-track">
+                                        <div class="booking member">Member Only</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="booking-btn-container mt-5 fade-in-left" style="max-width: 50%;">
+                <a href="#book-now" class="btn btn-outline neon-border">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events & Leagues Section -->
+    <section class="section leagues" id="leagues">
+        <div class="container">
+            <div class="super-header text-center fade-in">
+                <h2>Tournaments, leagues & <br><span class="neon-teal">bragging rights</span></h2>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="pricing-tiers stagger-fade-in">
+                <div class="tier-card glass-card">
+                    <div class="tier-badge">Beginner</div>
+
+                    <h3>Chalk Eaters</h3>
+                    <p>You know which end of the cue to hold. Probably.</p>
+                </div>
+
+                <div class="tier-card glass-card">
+                    <div class="tier-badge">Intermediate</div>
+
+                    <h3>Bank Rollers</h3>
+                    <p>You can run 3 balls before missing an easy straight shot.</p>
+                </div>
+
+                <div class="tier-card glass-card popular-tier">
+                    <div class="glow-wrap"></div>
+                    <div class="tier-badge gold">Advanced</div>
+
+                    <h3>Hustlers</h3>
+                    <p>You bring your own custom cue and talcum powder.</p>
+                </div>
+
+                <div class="tier-card glass-card colin-tier">
+                    <div class="tier-badge danger">Colin</div>
+
+                    <h3>Colin's League</h3>
+                    <p>Where the rules change mid-game and Colin keeps score.</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 fade-in">
+                <a href="#join-league" class="btn btn-outline neon-border">Join a League</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food & Drinks Section -->
+    <section class="section menu pattern-bg" id="menu">
+        <div class="container container-narrow">
+            <div class="super-header text-center fade-in">
+                <h2>Fuel your <span class="accent-gold">break</span></h2>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="split-layout reverse-mobile">
+                <div class="content-side fade-in-left">
+                    <div class="menu-list glass-panel" style="margin-left: 0;">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Craft Beer</h4>
+                                <span class="price">£6.50</span>
+                            </div>
+                            <p>Locally sourced, heavily hopped.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Cocktails</h4>
+                                <span class="price">£11.00</span>
+                            </div>
+                            <p>Shaken, stirred, and slightly glowing.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Artisanal Pizza</h4>
+                                <span class="price">£14.00</span>
+                            </div>
+                            <p>Not the frozen kind. We promise.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Loaded Nachos</h4>
+                                <span class="price">£12.50</span>
+                            </div>
+                            <p>Enough cheese to choke a horse.</p>
+                        </div>
+                        <div class="menu-item highlight-menu">
+                            <div class="menu-item-header">
+                                <h4>Colin's "Business Meeting" Crisps</h4>
+                                <span class="price">£8.00</span>
+                            </div>
+                            <p>Just ready salted, but put in a fancy bowl.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="visual-side menu-image placeholder-image food-placeholder fade-in-right">
+                    <!-- Placeholder for generated food image -->
+                    <div class="placeholder-text">Luxurious Craft Cocktail & Gourmet Nachos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Section -->
+    <section class="section mobile-app" id="app">
+        <div class="container">
+            <div class="split-layout">
+                <div class="content-side fade-in-left">
+                    <div class="super-header">
+                        <h2 style="white-space: nowrap;">The <span class="neon-teal">Colin Cue Club</span><br>App</h2>
+                    </div>
+                    <p class="subtitle gold">Coming Soon</p>
+                    <p class="lead-text mt-3">Pre-register for the app. Book tables, track stats, and avoid eye contact
+                        with Colin at the bar.</p>
+
+                    <ul class="feature-list mt-4">
+                        <li><span class="check-icon neon">✧</span> Book tables instantly</li>
+                        <li><span class="check-icon neon">✧</span> Manage membership</li>
+                        <li><span class="check-icon neon">✧</span> Join leagues & events</li>
+                        <li><span class="check-icon neon">✧</span> Track wins & stats</li>
+                        <li><span class="check-icon neon">✧</span> Challenge friends</li>
+                        <li><span class="check-icon neon">✧</span> Check live table availability</li>
+                        <li><span class="check-icon neon danger">✧</span> <em>Receive important notifications Colin
+                                forgets to send</em></li>
+                    </ul>
+
+                    <a href="#early-access" class="btn btn-primary glow-effect btn-large mt-4">Get Early Access</a>
+                </div>
+
+                <div class="visual-side app-visual fade-in-right">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-screen">
+                                <div class="app-header">
+                                    <div class="app-logo">C</div>
+                                    <div class="app-profile"></div>
+                                </div>
+                                <div class="app-widget welcome">
+                                    <p>Welcome back</p>
+                                    <h3>Not Colin</h3>
+                                </div>
+                                <div class="app-grid">
+                                    <div class="app-btn active">Book</div>
+                                    <div class="app-btn">League</div>
+                                </div>
+                                <div class="app-widget table-status">
+                                    <div class="status-dot green"></div> Table 4 is Open
+                                </div>
+                            </div>
+                        </div>
+                        <div class="glow-behind"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter & Membership CTA Section -->
+    <section class="section cta pattern-bg" id="newsletter">
+        <div class="container container-narrow">
+            <div class="glass-panel text-center fade-in-up"
+                style="background: linear-gradient(135deg, rgba(20,20,24,0.9) 0%, rgba(10,10,12,0.95) 100%); padding: 3rem 2rem; border-color: rgba(0,229,255,0.2);">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Join the Club.<br><span class="neon-teal">Beat
+                        Colin.</span></h2>
+                <p class="lead-text mx-auto" style="max-width: 600px; margin-bottom: 2.5rem;">
+                    Exclusive perks, priority booking, member-only events, and early access to tournaments Colin will
+                    enter and lose.
+                </p>
+                <a href="#membership" class="btn btn-primary glow-effect btn-large pulse">Become a Member</a>
+
+                <div class="divider mx-auto"
+                    style="margin: 3rem auto; background: rgba(255,255,255,0.1); height: 1px; width: 100px;"></div>
+
+                <h3 style="margin-bottom: 1rem; color: var(--accent-gold);">Stay in the Loop</h3>
+                <p
+                    style="color: var(--text-muted); margin-bottom: 1.5rem; max-width: 400px; margin-left: auto; margin-right: auto;">
+                    Sign up for updates, event announcements, and Colin's increasingly desperate promotional emails.
+                </p>
+                <form class="newsletter-form mx-auto" onsubmit="event.preventDefault();"
+                    style="max-width: 400px; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
+                    <input type="email" placeholder="Email address" class="newsletter-input" required>
+                    <button type="submit" class="btn btn-primary"
+                        style="border-radius: 0 50px 50px 0;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <a href="#" class="brand-logo footer-logo">
+                <span class="neon-tube">Co<span class="flicker-letter">l</span>in's</span> <span class="accent-gold">Cue
+                    Club</span>
+            </a>
+            <div class="footer-links mt-3">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">House Rules</a>
+            </div>
+            <p class="copyright mt-4">
+                &copy; 2026 Colin Cue Club
+            </p>
+            <p class="small-print mt-1">
+                All business decisions made confidently, quickly, and with absolutely no research.
+            </p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
