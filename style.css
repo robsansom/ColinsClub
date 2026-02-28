@@ -232,6 +232,7 @@ ul {
     border: none;
     outline: none;
     letter-spacing: 0.5px;
+    white-space: nowrap;
 }
 
 .btn-primary {
@@ -1097,10 +1098,12 @@ ul {
     display: flex;
     gap: 0;
     max-width: 420px;
+    width: 100%;
 }
 
 .newsletter-input {
     flex: 1;
+    min-width: 0;
     padding: 0.875rem 1.25rem;
     border: 2px solid rgba(0, 0, 0, 0.15);
     border-right: none;
@@ -1260,6 +1263,12 @@ ul {
 }
 
 @media (max-width: 768px) {
+
+    .glass-card,
+    .glass-panel {
+        padding: 1.5rem;
+    }
+
     h1 {
         font-size: 2.5rem;
     }
